@@ -1,0 +1,22 @@
+{
+    "name": "persona-tweak",
+    "version": "1.0.0",
+    "description": "Slack Bot that can create and tweak personas",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Gonzalo & Indra",
+    "license": "ISC",
+    "dependencies": {
+        "@slack/bolt": "^3.19.0",
+        "dotenv": "^16.4.5",
+        "fs": "^0.0.1-security",
+        "openai": "^4.52.7",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
